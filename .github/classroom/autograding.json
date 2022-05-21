@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "ChainingHashMap::ChainingHashMap",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"ChainingHashMap::ChainingHashMap\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "ChainingHashMap::Contains",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"ChainingHashMap::Contains\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "ChainingHashMap::Put",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"ChainingHashMap::Put\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "ChainingHashMap::Remove",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"ChainingHashMap::Remove\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "ChainingHashMap::Search",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"ChainingHashMap::Search\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "ChainingHashMap::Clear",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"ChainingHashMap::Clear\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}
